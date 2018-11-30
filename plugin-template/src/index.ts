@@ -3,6 +3,7 @@
 // TODO: Tim updates this file to reflect new pattern
 // TODO: the interface should match the interface in "@sce/plugin-typings"
 
+/*
 import {SceEvent, SceMain, Updateable} from "@sce/plugin-typings";
 
 export class SCEPlugin implements SceMain {
@@ -45,9 +46,7 @@ export class SCEPlugin implements SceMain {
   
 }
 
-
-
-
+*/
 
 
 

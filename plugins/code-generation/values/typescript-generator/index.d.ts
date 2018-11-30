@@ -5,7 +5,7 @@ export declare class SCEPlugin implements SceMain {
     private events;
     private typescriptGenerator;
     constructor();
-    getRawGeneratedCode(): string;
-    getStyledGeneratedCode(): string;
+    getRawGeneratedCode(): any;
+    getStyledGeneratedCode(): any;
     setEvents(events: SceEvent[]): void;
 }

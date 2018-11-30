@@ -1,6 +1,6 @@
 'use strict';
 
-
+/*
 import {SceEvent, SceMain, Updateable} from "@sce/plugin-typings";
 
 export class SCEPlugin implements SceMain {
@@ -43,7 +43,7 @@ export class SCEPlugin implements SceMain {
   
 }
 
-
+*/
 
 
 
