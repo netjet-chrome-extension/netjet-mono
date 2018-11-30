@@ -1,0 +1,33 @@
+{
+  "name": "@sce/plugin-typings",
+  "version": "0.0.104",
+  "description": "Suman Chrome Extension ecosystem types / typings",
+  "main": "index.d.ts",
+  "scripts": {
+    "test": "suman"
+  },
+  "typings": "index.d.ts",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ORESoftware/sce-plugin-typings.git"
+  },
+  "keywords": [
+    "suman",
+    "chrome",
+    "extension",
+    "sc",
+    "types",
+    "typings",
+    "typescript"
+  ],
+  "authors": [
+    "Olegzandr VD",
+    "Tim Mensch"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ORESoftware/sce-plugin-typings/issues"
+  },
+  "homepage": "https://github.com/ORESoftware/sce-plugin-typings#readme"
+}

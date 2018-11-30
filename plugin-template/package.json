@@ -1,0 +1,35 @@
+{
+  "name": "@sce/plugin-template",
+  "version": "0.0.101",
+  "description": "Suman Chrome Extension plugin template ",
+  "main": "dist/plugin.js",
+  "scripts": {
+    "test": "suman"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/sumanjs/sce-plugin-template.git"
+  },
+  "keywords": [
+    "Suman",
+    "Chrome",
+    "Extension",
+    "sce",
+    "chrome-extension"
+  ],
+  "author": "Olegzandr VD",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/sumanjs/sce-plugin-template/issues"
+  },
+  "homepage": "https://gitlab.com/sumanjs/sce-plugin-template#README",
+  "devDependencies": {
+    "@types/core-js": "^0.9.46",
+    "@types/node": "^9.4.6",
+    "http-server": "^0.11.1",
+    "@sce/plugin-typings": "latest",
+    "ts-loader": "^3.5.0",
+    "webpack": "^4.12.0"
+  },
+  "dependencies": {}
+}

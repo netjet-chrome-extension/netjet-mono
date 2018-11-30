@@ -1,0 +1,19 @@
+{
+  "linkToItself": false,
+  "searchRoots": [
+    ".."
+  ],
+  "ignore": [
+    "/node_modules/",
+    "/.git/",
+    "/dist/",
+    "/target/"
+  ],
+  "list": [
+    "@sce/code-generation",
+    "@sce/plugin-typings"
+  ],
+  "comments":[
+    "not comments at this time :)"
+  ]
+}
