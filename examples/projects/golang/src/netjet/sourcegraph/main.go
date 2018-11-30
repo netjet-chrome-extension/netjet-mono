@@ -1,0 +1,3 @@
+package sourcegraph
+
+// noop

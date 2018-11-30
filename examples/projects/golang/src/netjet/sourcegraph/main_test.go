@@ -1,27 +1,31 @@
-package sourcegraph_go_selenium_test
+package sourcegraph_test
 
 import (
 "fmt"
 "sourcegraph.com/sourcegraph/go-selenium"
+	"testing"
 )
 
-func ExampleFindElement() {
-	var webDriver selenium.WebDriver
+// cached
+
+func TestExample(t *testing.T) {
+
+	var wd selenium.WebDriver
 	var err error
 	caps := selenium.Capabilities(map[string]interface{}{"browserName": "firefox"})
-	if webDriver, err = selenium.NewRemote(caps, "http://localhost:4444/wd/hub"); err != nil {
+	if wd, err = selenium.NewRemote(caps, "http://localhost:4444/wd/hub"); err != nil {
 		fmt.Printf("Failed to open session: %s\n", err)
 		return
 	}
-	defer webDriver.Quit()
+	defer wd.Quit()
 
-	err = webDriver.Get("https://sourcegraph.com/sourcegraph/go-selenium")
+	err = wd.Get("https://sourcegraph.com/sourcegraph/go-selenium")
 	if err != nil {
 		fmt.Printf("Failed to load page: %s\n", err)
 		return
 	}
 
-	if title, err := webDriver.Title(); err == nil {
+	if title, err := wd.Title(); err == nil {
 		fmt.Printf("Page title: %s\n", title)
 	} else {
 		fmt.Printf("Failed to get page title: %s", err)
@@ -29,7 +33,7 @@ func ExampleFindElement() {
 	}
 
 	var elem selenium.WebElement
-	elem, err = webDriver.FindElement(selenium.ByCSSSelector, ".repo .name")
+	elem, err = wd.FindElement(selenium.ByCSSSelector, ".repo .name")
 	if err != nil {
 		fmt.Printf("Failed to find element: %s\n", err)
 		return

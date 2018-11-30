@@ -2,5 +2,11 @@
 
 cd "$(dirname "$BASH_SOURCE")"
 export GOPATH="$PWD"
-go test sourcegraph_go_selenium
-#go test tebka-selenium
+
+export GOCACHE='off'
+
+go test netjet/tebeka
+go test netjet/sourcegraph
+
+# or:  go test netjet/tebeka -run TestExample
+# or:  go test netjet/sourcegraph -run TestExample
