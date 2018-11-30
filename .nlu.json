@@ -1,0 +1,14 @@
+{
+  "npm-link-up": true,
+  "linkable": true,
+  "linkToItself": false,
+  "searchRoots": [
+    "../.."
+  ],
+  "list": [
+    "@sce/plugins",
+    "@sce/plugin-typings",
+    "@sce/code-generation",
+    "@sce/plugin-template"
+  ]
+}
