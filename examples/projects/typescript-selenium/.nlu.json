@@ -1,0 +1,20 @@
+{
+  "npm-link-up": true,
+  "linkToItself": false,
+  "searchRoots": [
+    "../../.."
+  ],
+  "ignore": [
+    "/node_modules/",
+    "/.git/",
+    "/dist/",
+    "/target/"
+  ],
+  "list": [
+    "@sce/plugin-typings",
+    "@sce/code-generation"
+  ],
+  "comments":[
+    "not comments at this time :)"
+  ]
+}

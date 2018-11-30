@@ -1,6 +1,9 @@
+'use strict';
+
 import "chromedriver";
 import { By } from "selenium-webdriver";
 import { SCETestHelper } from "@sce/code-generation/dist/typescriptHelpers";
+import "mocha";
 
 // Tool will output a single top-level "describe" block
 describe("SCE Test Session", () => {

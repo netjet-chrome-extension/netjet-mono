@@ -14,7 +14,7 @@
     "@sce/code-generation": "~0.0.1001"
   },
   "devDependencies": {
-    "@types/mocha": "^2.2.41",
+    "@types/mocha": "^2.2.48",
     "@types/node": "^8.0.6",
     "@types/selenium-webdriver": "^3.0.4",
     "chromedriver": "^2.40.0",

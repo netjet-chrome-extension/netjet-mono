@@ -9,6 +9,7 @@
     "@sce/plugins",
     "@sce/plugin-typings",
     "@sce/code-generation",
-    "@sce/plugin-template"
+    "@sce/plugin-template",
+    "ts-selenium"
   ]
 }
