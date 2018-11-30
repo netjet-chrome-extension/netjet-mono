@@ -1,5 +1,6 @@
 "use strict";
 
+
 import { SceEvent } from "@sce/plugin-typings";
 
 export interface AbstractGeneratorOptions {

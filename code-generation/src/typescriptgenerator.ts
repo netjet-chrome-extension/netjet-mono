@@ -1,3 +1,7 @@
+'use strict';
+
+//TODO: this should be moved into the adjacent typescript folder
+
 import { AbstractGenerator } from "./abstractgenerator";
 import { SceEvent } from "@sce/plugin-typings";
 

@@ -1,4 +1,7 @@
 "use strict";
+
+//TODO: this should be moved into the adjacent typescript folder
+
 import {
   ThenableWebDriver,
   Builder,
