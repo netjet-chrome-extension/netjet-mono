@@ -11,7 +11,8 @@
     "/target/"
   ],
   "list": [
-    "@sce/plugin-typings"
+    "@sce/plugin-typings",
+    "@sce/plugins"
   ],
   "comments":[
     "not comments at this time :)"

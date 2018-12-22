@@ -3,7 +3,7 @@
   "linkable": true,
   "linkToItself": false,
   "searchRoots": [
-    "../.."
+    "."
   ],
   "list": [
     "@sce/plugins",
